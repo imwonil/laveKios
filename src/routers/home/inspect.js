@@ -146,7 +146,7 @@ function  next_2() {
 function next_3() {
   console.log("3")
 
-fs. readFile("./src/database/kokotime.json")
+fs. readFile("./src/database/kokoTime.json")
 .then((kokoData) => {
 const KOKODATA = JSON.parse(kokoData)
 
